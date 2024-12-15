@@ -16,6 +16,8 @@ function addTask() {
     }
     inputBox.value = "";
     saveTask();
+
+    document.getElementById("input-box").focus();
 }
 
 listContainer.addEventListener("click", function(e) {
